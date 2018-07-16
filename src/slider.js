@@ -57,7 +57,3 @@ Slider = function( node ) {
     // Run slider
     setInterval( this.run.bind(this), this.interval );
 }
-
-document.addEventListener( 'DOMContentLoaded', function() {
-    new Slider(document.querySelector('.slider'));
-} );
