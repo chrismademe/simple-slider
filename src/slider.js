@@ -2,7 +2,7 @@ var Slider;
 
 Slider = function( node ) {
     this.node = node;
-    this.firstSlide = this.node.querySelector('.slide');
+    this.firstSlide = this.node.querySelector('.slider__slide');
     this.currentSlide = null;
     this.nextSlide = null;
     this.interval = 5000;
